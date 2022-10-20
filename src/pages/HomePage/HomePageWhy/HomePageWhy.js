@@ -12,7 +12,7 @@ const HomePageWhy = () => {
             <div className="why-title-header">
               <h1 className="why-title">TẠI SAO CHỌN CHÚNG TÔI</h1>
               <p className="why-desc">Với những nghệ nhân rang tâm huyết và đội ngũ tài năng cùng những câu
-                chuyện trà đầy cảm hứng, ngôi nhà Tea House là
+                chuyện trà đầy cảm hứng, ngôi nhà The Coffee House là
                 không gian dành riêng cho những ai trót yêu say đắm hương vị của những lá trà tuyệt hảo.</p>
             </div>
             <div className="why-title-item">

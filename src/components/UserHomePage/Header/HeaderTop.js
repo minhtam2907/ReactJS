@@ -49,7 +49,7 @@ const HeaderTop = ({ showMenu }) => {
           <div className="header__top__hotline col-md-4">
             <i className="fas fa-phone-alt" ></i>
             Hotline:
-            <a href="tel:1900 6750"> 1900 6750</a>
+            <a href="tel:0702222222"> 0702222222</a>
           </div>
           <div className="col-3 logo-menu-top">
             <Link to="/" >

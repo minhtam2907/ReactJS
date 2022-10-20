@@ -21,15 +21,6 @@ const HomePageListImg = () => {
   };
   return (
     <div className="slider-bottom">
-      <Slider {...settings}>
-        {sliders && sliders.map((item, index) => {
-          return (
-            <h3 key={index}>
-              <img src={item.url} className="card-img-top" alt="seccategory4" />
-            </h3>
-          )
-        })}
-      </Slider>
     </div >
   );
 };

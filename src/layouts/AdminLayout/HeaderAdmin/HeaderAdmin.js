@@ -1,7 +1,6 @@
 import React, { useEffect } from 'react';
 import './headerAdmin.scss';
 import { Link } from 'react-router-dom';
-import logo from '../../../assets/images/logo.webp'
 import { useDispatch, useSelector } from 'react-redux';
 import { actLogout } from '../../../Redux/actions/actionAuthAdmin';
 import { Popover, Badge, Image, Avatar } from 'antd';
@@ -113,10 +112,7 @@ const HeaderAdmin = ({ handleToggle }) => {
                     <div className="navbar-toggle d-md-none" onClick={handleToggle}>
                         <i className="fas fa-bars" id="btn"></i>
                     </div>
-                    <div className="navbar-brand ">
-                        <Link to='/adminUI'>
-                            <img src={logo} alt="Tee and coffee" />
-                        </Link>
+                    <div className="navbar-brand "> 
                     </div>
                     <div className="user-container">
                         <div className="notification">

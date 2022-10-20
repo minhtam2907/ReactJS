@@ -139,7 +139,7 @@ const NewsPage = () => {
                 <div className="card-body">
                   {/* <h5 className="card-title">Card title</h5> */}
                   <p className="card-text">
-                    Tea House được sinh ra từ niềm đam mê bất tận với lá trà Việt Nam.
+                  The Coffee House được sinh ra từ niềm đam mê bất tận với lá trà Việt Nam.
                     Chúng tôi đã không ngừng mang đến những sản phẩm trà thơm ngon,
                     sánh đượm trong không gian thoải mái và lịch sự với mức giá hợp lý.</p>
                   <Link to="/newspage" className="btn btn-success">Đọc Tiếp</Link>

@@ -36,9 +36,7 @@ const Menus = () => {
                             <li><NavLink to="/news" activeClassName="selected">
                                 Tin tức
                             </NavLink></li>
-                            <li><NavLink to="/contacts" activeClassName="selected">
-                                Liên hệ
-                            </NavLink></li>
+                            
                         </ul>
                     </div>
                 </div>

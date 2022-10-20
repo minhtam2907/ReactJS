@@ -81,9 +81,7 @@ const MenuMobi = ({ showMenu }) => {
                 <li><NavLink to="/news" activeClassName="selected">
                     Tin tức
                 </NavLink></li>
-                <li><NavLink to="/contacts" activeClassName="selected">
-                    Liên hệ
-                </NavLink></li>
+                
                 {userUI && userUI.isUser === true && (
                     <>
                         <li><NavLink to="/userUI/settings" activeClassName="selected">

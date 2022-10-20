@@ -9,8 +9,10 @@
     .footer-support1 {
       p {
         text-align: center;
+        font-size: 20px;
       }
       .list-support {
+        font-size: 20px;
         width: 100%;
         display: flex;
         justify-content: space-around;
@@ -35,15 +37,18 @@
       margin: 20px 0;
       color: #525050;
       line-height: 25px;
+      font-size: 20px;
     }
     .footer-support1 > p > a {
       text-decoration: none;
       color: #4d8a54;
+      font-size: 20px;
     }
     .footer-support1 > p > a:hover {
       color: orangered;
     }
     .footer-support2 {
+      font-size: 20px;
       display: flex;
       flex-direction: column;
       justify-content: space-between;
@@ -71,7 +76,7 @@
   }
   .footer-copyright {
     width: 100%;
-    background-color: #4d8a54;
+    background-color: #8B4513;
     color: white;
     text-align: center;
     padding: 10px 0;

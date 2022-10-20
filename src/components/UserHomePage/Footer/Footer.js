@@ -1,6 +1,5 @@
 import React from "react";
 import './Footer.scss';
-import logo from '../../../assets/images/logo.webp'
 import { Link, NavLink } from "react-router-dom";
 const Footer = () => {
 
@@ -10,18 +9,16 @@ const Footer = () => {
         <div className="footer-support row">
           <div className="footer-support1 footer-support2 col-md-4 col-12">
             <div className="footer-img">
-              <Link to="/">
-                <img src={logo} alt="" />
-              </Link>
+
             </div>
             <p>
-              Chúng tôi mong muốn Tea House sẽ trở thành “Nhà Trà",
+              Chúng tôi mong muốn The Coffee House sẽ trở thành “Nhà Trà",
               nơi mọi người xích lại gần nhau và tìm thấy niềm vui,
               sự sẻ chia thân tình bên những tách cà phê đượm hương, chất lượng.
             </p>
             <div className="call-me">
               <i className="fas fa-phone-alt"></i>
-              <a href="tel:1900 6750">1900 6750</a>
+              <a href="tel:0702222222">0702222222</a>
             </div>
           </div>
           <div className="footer-support1 support1 col-md-4 col-12">
@@ -37,7 +34,7 @@ const Footer = () => {
               <div className="list-support1">
                 <NavLink to="/cart">Đặt hàng</NavLink>
                 <NavLink to="/news">Tin tức</NavLink>
-                <NavLink to="/contact">Liên hệ</NavLink>
+                
               </div>
             </div>
           </div>
@@ -56,7 +53,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="footer-copyright ">&copy;Copyright, Da Nang 14-05-2022</div>
+      <div className="footer-copyright ">&copy;Copyright, Da Nang 14-10-2022</div>
 
     </div>
   );
